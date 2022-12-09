@@ -415,6 +415,15 @@ p {
 	justify-content: space-between;
 }
 
+.highfi {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* flex-wrap: wrap; */
+}
+
 .about {
 	font-size: large;
 }
