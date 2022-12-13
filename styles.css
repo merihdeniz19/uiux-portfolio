@@ -226,7 +226,8 @@ p {
   color: black;
   display: block; /* Makes a vertical list */
   padding: 1%; 
-  margin-top: 10%;
+  /* margin-top: 5%; */
+  /* margin-bottom: 5%; */
   text-align: center;  
 }
 
