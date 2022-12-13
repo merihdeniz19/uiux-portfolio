@@ -28,6 +28,10 @@ footer {
 	font-size: small;
 }
 
+p {
+	font-size: large;
+}
+
 .general-content {
 	width: 80%;
 	margin: 0 auto;
@@ -62,8 +66,9 @@ footer {
 
 .small-about p{
 	font-family: 'Inconsolata', monospace;
-	font-size: 12pt;
+	font-size: 14pt;
 	color: gray;
+	text-align: center;
 }
 
 /* following is taken from https://css-tricks.com/snippets/css/typewriter-effect/ for the typewriter effect */
@@ -133,9 +138,18 @@ ul {
 	/* list-style-type: armenian; */
 	/* display:list-item; */
 	list-style-position:inside;
-	font-size: medium;
+	/* font-size: medium; */
 	text-align: left;
 	font-family: 'Inconsolata', monospace;
+	color: gray;
+	font-size: 13pt;
+	line-height: 150%;	
+}
+
+.interview-ans {
+	color: gray;
+	font-size: 13pt;
+	line-height: 150%;	
 }
 
 h1 {
@@ -286,6 +300,7 @@ p {
 
   .small-about-personas {
 	font-family: 'Inconsolata', monospace;
+	line-height: 150%;
 	font-size: 12pt;
 	color: gray;
 	display: flex;
@@ -293,6 +308,10 @@ p {
 	max-width: 95%;
 	justify-content: space-between;
 	text-align: center;
+  }
+
+  .small-about-personas p {
+	color: gray;
   }
 
   .small-about-personas img {
@@ -304,6 +323,7 @@ p {
   .small-about-wildhare {
 	font-family: 'Inconsolata', monospace;
 	font-size: 12pt;
+	line-height: 150%;
 	color: gray;
 	display: flex;
 	flex-wrap: wrap;
@@ -427,6 +447,89 @@ p {
 .about {
 	font-size: large;
 }
+
+.development-about {
+	align-self: center;
+	text-align: center;
+}
+
+.development-about p {
+	color: grey;
+	line-height: 150%;
+}
+
+.development-content {
+	text-align: left;
+}
+
+.development-content h1{
+	text-align: left;
+}
+
+.development-content p{
+	text-align: left;
+	color: grey;
+	line-height: 150%;
+}
+
+.development-content li{
+	color: grey;
+	line-height: 150%;
+	font-size: large;
+	text-align: left;
+}
+
+.development-content ul{
+	color: grey;
+	line-height: 150%;
+	font-size: large;
+	text-align: left;
+}
+
+.iterative-img {
+	font-size: 12pt;
+	color: gray;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+  }
+
+  .iterative-img img{
+		/* width: 45%; */
+		height: auto;
+		width: 65%;
+		/* height: 370px; */
+		padding: 5px;
+		margin: 0 auto;
+		/* align-self: center; */
+		border: 5px solid #555;
+		align-self: center;
+  }
+
+  .iterative-lowfi {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+  }
+
+  .iterative-lowfi img {
+	height: 200px;
+	width: auto;
+	padding: 0;
+	margin: 0 auto;
+	border: 5px solid #555;
+	align-self: center;
+
+  }
+
 
 
 @media (max-width: 1000px) {
