@@ -67,8 +67,10 @@ p {
 .small-about p{
 	font-family: 'Inconsolata', monospace;
 	font-size: 14pt;
+	line-height: 150%;
 	color: gray;
 	text-align: center;
+	padding: 0%;
 }
 
 /* following is taken from https://css-tricks.com/snippets/css/typewriter-effect/ for the typewriter effect */
